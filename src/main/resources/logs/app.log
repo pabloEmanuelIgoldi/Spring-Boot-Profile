@@ -1,0 +1,224 @@
+2025-03-27T21:39:53.973-03:00  INFO 3608 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 3608 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:39:53.975-03:00  INFO 3608 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "dev"
+2025-03-27T21:39:54.921-03:00  INFO 3608 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-27T21:39:54.939-03:00  INFO 3608 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:39:54.939-03:00  INFO 3608 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:39:54.994-03:00  INFO 3608 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:39:54.994-03:00  INFO 3608 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2025-03-27T21:39:55.395-03:00  INFO 3608 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-27T21:39:55.403-03:00  INFO 3608 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.942 seconds (process running for 2.763)
+2025-03-27T21:40:14.177-03:00  INFO 3608 --- [appProfile] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:40:14.177-03:00  INFO 3608 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:40:14.178-03:00  INFO 3608 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27T21:40:21.184-03:00  INFO 3608 --- [appProfile] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:40:21.187-03:00  INFO 3608 --- [appProfile] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:40:21.192-03:00  INFO 3608 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T21:40:44.282-03:00  INFO 9824 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 9824 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:40:44.284-03:00  INFO 9824 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "prod"
+2025-03-27T21:40:45.232-03:00  INFO 9824 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-27T21:40:45.250-03:00  INFO 9824 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:40:45.250-03:00  INFO 9824 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:40:45.319-03:00  INFO 9824 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:40:45.320-03:00  INFO 9824 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 983 ms
+2025-03-27T21:40:45.723-03:00  INFO 9824 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-03-27T21:40:45.731-03:00  INFO 9824 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.96 seconds (process running for 2.78)
+2025-03-27T21:40:56.954-03:00  INFO 9824 --- [appProfile] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:40:56.955-03:00  INFO 9824 --- [appProfile] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:40:56.956-03:00  INFO 9824 --- [appProfile] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27T21:41:10.199-03:00  INFO 9824 --- [appProfile] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:41:10.202-03:00  INFO 9824 --- [appProfile] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:41:10.208-03:00  INFO 9824 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T21:45:59.656-03:00  INFO 5176 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 5176 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:45:59.661-03:00  INFO 5176 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "prod"
+2025-03-27T21:46:00.947-03:00  INFO 5176 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-27T21:46:00.973-03:00  INFO 5176 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:46:00.974-03:00  INFO 5176 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:46:01.046-03:00  INFO 5176 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:46:01.047-03:00  INFO 5176 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1303 ms
+2025-03-27T21:46:01.749-03:00  INFO 5176 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-03-27T21:46:01.774-03:00  INFO 5176 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 2.806 seconds (process running for 3.85)
+2025-03-27T21:46:07.642-03:00  INFO 5176 --- [appProfile] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:46:07.642-03:00  INFO 5176 --- [appProfile] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:46:07.644-03:00  INFO 5176 --- [appProfile] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27T21:46:25.088-03:00  INFO 5176 --- [appProfile] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:46:25.091-03:00  INFO 5176 --- [appProfile] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:46:25.096-03:00  INFO 5176 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T21:47:19.008-03:00  INFO 1856 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 1856 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:47:19.012-03:00  INFO 1856 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "dev"
+2025-03-27T21:47:20.239-03:00  INFO 1856 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-27T21:47:20.264-03:00  INFO 1856 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:47:20.264-03:00  INFO 1856 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:47:20.335-03:00  INFO 1856 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:47:20.336-03:00  INFO 1856 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1251 ms
+2025-03-27T21:47:21.004-03:00  INFO 1856 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-27T21:47:21.022-03:00  INFO 1856 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 2.65 seconds (process running for 3.641)
+2025-03-27T21:47:28.394-03:00  INFO 1856 --- [appProfile] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:47:28.394-03:00  INFO 1856 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:47:28.396-03:00  INFO 1856 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27T21:51:33.291-03:00  INFO 1856 --- [appProfile] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:51:33.294-03:00  INFO 1856 --- [appProfile] [RMI TCP Connection(12)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:51:33.300-03:00  INFO 1856 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T21:51:52.688-03:00  INFO 3640 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 3640 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:51:52.690-03:00  INFO 3640 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "dev"
+2025-03-27T21:51:53.628-03:00  INFO 3640 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-27T21:51:53.646-03:00  INFO 3640 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:51:53.646-03:00  INFO 3640 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:51:53.700-03:00  INFO 3640 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:51:53.701-03:00  INFO 3640 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 958 ms
+2025-03-27T21:51:54.094-03:00  INFO 3640 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-27T21:51:54.103-03:00  INFO 3640 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.929 seconds (process running for 2.756)
+2025-03-27T21:52:00.216-03:00  INFO 3640 --- [appProfile] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:52:00.216-03:00  INFO 3640 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:52:00.218-03:00  INFO 3640 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27T21:52:12.103-03:00  INFO 3640 --- [appProfile] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:52:12.106-03:00  INFO 3640 --- [appProfile] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:52:12.112-03:00  INFO 3640 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T21:52:38.312-03:00  INFO 9200 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 9200 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:52:38.314-03:00  INFO 9200 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "prod"
+2025-03-27T21:52:39.250-03:00  INFO 9200 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-27T21:52:39.267-03:00  INFO 9200 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:52:39.268-03:00  INFO 9200 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:52:39.322-03:00  INFO 9200 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:52:39.322-03:00  INFO 9200 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 957 ms
+2025-03-27T21:52:39.731-03:00  INFO 9200 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-03-27T21:52:39.739-03:00  INFO 9200 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.938 seconds (process running for 2.752)
+2025-03-27T21:52:46.450-03:00  INFO 9200 --- [appProfile] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:52:46.451-03:00  INFO 9200 --- [appProfile] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:52:46.453-03:00  INFO 9200 --- [appProfile] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-27T21:52:53.983-03:00  INFO 9200 --- [appProfile] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:52:53.986-03:00  INFO 9200 --- [appProfile] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:52:53.992-03:00  INFO 9200 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T21:53:19.452-03:00  INFO 6412 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 6412 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:53:19.455-03:00  INFO 6412 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "qa"
+2025-03-27T21:53:20.437-03:00  INFO 6412 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-27T21:53:20.455-03:00  INFO 6412 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:53:20.455-03:00  INFO 6412 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:53:20.509-03:00  INFO 6412 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:53:20.510-03:00  INFO 6412 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1000 ms
+2025-03-27T21:53:20.571-03:00  WARN 6412 --- [appProfile] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appController': Injection of autowired dependencies failed
+2025-03-27T21:53:20.574-03:00  INFO 6412 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-03-27T21:53:20.587-03:00  INFO 6412 --- [appProfile] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-27T21:53:20.611-03:00 ERROR 6412 --- [appProfile] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appController': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:515) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
+	at com.appprofile.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'msj.enviroment' in value "${msj.enviroment}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:416) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:255) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:226) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:201) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:963) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1541) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.2.jar:6.2.2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.2.jar:6.2.2]
+	... 19 common frames omitted
+
+2025-03-27T21:55:52.668-03:00  INFO 8808 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 8808 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:55:52.670-03:00  INFO 8808 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "test"
+2025-03-27T21:55:53.605-03:00  INFO 8808 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-03-27T21:55:53.622-03:00  INFO 8808 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:55:53.623-03:00  INFO 8808 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:55:53.677-03:00  INFO 8808 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:55:53.678-03:00  INFO 8808 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 954 ms
+2025-03-27T21:55:54.065-03:00  INFO 8808 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-03-27T21:55:54.073-03:00  INFO 8808 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.927 seconds (process running for 2.766)
+2025-03-27T21:56:11.446-03:00  INFO 8808 --- [appProfile] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:56:11.447-03:00  INFO 8808 --- [appProfile] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:56:11.448-03:00  INFO 8808 --- [appProfile] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27T21:56:21.039-03:00  INFO 8808 --- [appProfile] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:56:21.042-03:00  INFO 8808 --- [appProfile] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:56:21.048-03:00  INFO 8808 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T21:57:51.151-03:00  INFO 6112 --- [appProfile] [main] com.appprofile.DemoApplicationTests      : Starting DemoApplicationTests using Java 21.0.4 with PID 6112 (started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:57:51.153-03:00  INFO 6112 --- [appProfile] [main] com.appprofile.DemoApplicationTests      : The following 1 profile is active: "test"
+2025-03-27T21:57:52.849-03:00  INFO 6112 --- [appProfile] [main] com.appprofile.DemoApplicationTests      : Started DemoApplicationTests in 2.193 seconds (process running for 3.633)
+2025-03-27T21:58:02.097-03:00  INFO 9740 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 9740 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:58:02.100-03:00  INFO 9740 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "test"
+2025-03-27T21:58:03.033-03:00  INFO 9740 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-03-27T21:58:03.051-03:00  INFO 9740 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:58:03.051-03:00  INFO 9740 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:58:03.107-03:00  INFO 9740 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:58:03.107-03:00  INFO 9740 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 956 ms
+2025-03-27T21:58:03.523-03:00  INFO 9740 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-03-27T21:58:03.531-03:00  INFO 9740 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.946 seconds (process running for 2.779)
+2025-03-27T21:58:12.000-03:00  INFO 9740 --- [appProfile] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:58:12.000-03:00  INFO 9740 --- [appProfile] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:58:12.001-03:00  INFO 9740 --- [appProfile] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-27T21:58:15.439-03:00  INFO 9740 --- [appProfile] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:58:15.442-03:00  INFO 9740 --- [appProfile] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:58:15.448-03:00  INFO 9740 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T21:58:29.281-03:00  INFO 8320 --- [appProfile] [main] com.appprofile.DemoApplicationTests      : Starting DemoApplicationTests using Java 21.0.4 with PID 8320 (started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:58:29.283-03:00  INFO 8320 --- [appProfile] [main] com.appprofile.DemoApplicationTests      : The following 1 profile is active: "dev"
+2025-03-27T21:58:31.045-03:00  INFO 8320 --- [appProfile] [main] com.appprofile.DemoApplicationTests      : Started DemoApplicationTests in 2.246 seconds (process running for 3.672)
+2025-03-27T21:58:47.525-03:00  INFO 9232 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 9232 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T21:58:47.528-03:00  INFO 9232 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "dev"
+2025-03-27T21:58:48.474-03:00  INFO 9232 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-27T21:58:48.491-03:00  INFO 9232 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T21:58:48.492-03:00  INFO 9232 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T21:58:48.545-03:00  INFO 9232 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T21:58:48.546-03:00  INFO 9232 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 965 ms
+2025-03-27T21:58:48.939-03:00  INFO 9232 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-27T21:58:48.948-03:00  INFO 9232 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.934 seconds (process running for 2.746)
+2025-03-27T21:58:57.098-03:00  INFO 9232 --- [appProfile] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T21:58:57.098-03:00  INFO 9232 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T21:58:57.099-03:00  INFO 9232 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27T21:59:20.084-03:00  INFO 9232 --- [appProfile] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T21:59:20.086-03:00  INFO 9232 --- [appProfile] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T21:59:20.092-03:00  INFO 9232 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T22:01:38.507-03:00  INFO 5064 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 5064 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T22:01:38.509-03:00  INFO 5064 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "dev"
+2025-03-27T22:01:39.451-03:00  INFO 5064 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-27T22:01:39.469-03:00  INFO 5064 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T22:01:39.469-03:00  INFO 5064 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T22:01:39.523-03:00  INFO 5064 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T22:01:39.524-03:00  INFO 5064 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 961 ms
+2025-03-27T22:01:39.918-03:00  INFO 5064 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-27T22:01:39.925-03:00  INFO 5064 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.945 seconds (process running for 2.76)
+2025-03-27T22:01:49.386-03:00  INFO 5064 --- [appProfile] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T22:01:49.387-03:00  INFO 5064 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T22:01:49.389-03:00  INFO 5064 --- [appProfile] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-27T22:01:54.936-03:00  INFO 5064 --- [appProfile] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T22:01:54.939-03:00  INFO 5064 --- [appProfile] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T22:01:54.944-03:00  INFO 5064 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T22:16:56.205-03:00  INFO 4260 --- [appProfile] [main] com.appprofile.DemoApplication           : Starting DemoApplication using Java 21.0.4 with PID 4260 (C:\Users\User\Documents\Desa\wsSpringBoot\appprofile\target\classes started by User in C:\Users\User\Documents\Desa\wsSpringBoot\appprofile)
+2025-03-27T22:16:56.207-03:00  INFO 4260 --- [appProfile] [main] com.appprofile.DemoApplication           : The following 1 profile is active: "prod"
+2025-03-27T22:16:57.136-03:00  INFO 4260 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-03-27T22:16:57.154-03:00  INFO 4260 --- [appProfile] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T22:16:57.155-03:00  INFO 4260 --- [appProfile] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-27T22:16:57.210-03:00  INFO 4260 --- [appProfile] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T22:16:57.211-03:00  INFO 4260 --- [appProfile] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 951 ms
+2025-03-27T22:16:57.617-03:00  INFO 4260 --- [appProfile] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-03-27T22:16:57.624-03:00  INFO 4260 --- [appProfile] [main] com.appprofile.DemoApplication           : Started DemoApplication in 1.933 seconds (process running for 2.748)
+2025-03-27T22:17:43.126-03:00  INFO 4260 --- [appProfile] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T22:17:43.126-03:00  INFO 4260 --- [appProfile] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T22:17:43.128-03:00  INFO 4260 --- [appProfile] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-27T22:23:29.341-03:00  INFO 4260 --- [appProfile] [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-27T22:23:29.344-03:00  INFO 4260 --- [appProfile] [RMI TCP Connection(16)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T22:23:29.350-03:00  INFO 4260 --- [appProfile] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

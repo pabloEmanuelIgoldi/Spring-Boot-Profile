@@ -1,4 +1,4 @@
-#  **Definiciòn breve sobre perfiles**
+#  **Definición breve sobre perfiles**
 
 Los Profiles en Spring Boot son un mecanismo poderoso que te permite definir diferentes configuraciones de tu aplicación para distintos entornos o escenarios.
 Son esenciales para el despliegue en diferentes entornos sin modificar el código, haciendo tu aplicación más portable y fácil de configurar.
@@ -37,13 +37,17 @@ mvn clean package -DskipTests -P prod
 
 
 
-## **Archivo de configuraciòn:**
+## **Archivo de configuración:**
 
-- Contiene la configuracion comun de todos los ambientes:
+- Contiene la configuración comun de todos los ambientes:
+
 application.properties
-- Contiene la configuracion del ambiente Desarrollo:
+- Contiene la configuración del ambiente Desarrollo:
+
 application-dev.properties
-- Contiene la configuracion del ambiente Testing:
+- Contiene la configuración del ambiente Testing:
+
 application-test.properties
-- Contiene la configuracion del ambiente Produccion:
+- Contiene la configuración del ambiente Produccion:
+
 application-prod.properties
